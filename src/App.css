@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.grid-box {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  margin-bottom: 10px;
+}
+
+.grid-box > div {
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.grid-box p {
+  font-size: 0.5em;
+  position: relative;
+  right: 75%;
+  top: -55%;
+}
+
+.grid-box h3 {
+  position: relative;
+  top: -75%;
+  color: red;
+}
+
+.grid-box h2 {
+  /* font-size: .9em; */
+  position: relative;
+  top: -35%;
+  color: yellow;
 }
